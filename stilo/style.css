@@ -1,0 +1,103 @@
+body {
+    background-image: url('../imagens/megumin-background.jpg'); /* Caminho relativo ajustado */
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Não repete a imagem */
+    background-attachment: fixed; /* Mantém a imagem de fundo fixa ao rolar a página */
+}
+
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: transparent;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(203, 5, 5, 0);
+}
+
+div {
+    text-align: center;
+    padding: 5px;
+}
+#msg {
+    color: #ffffffb5;
+    font-size: 25px;
+    font-weight: bold; /* Torna o texto em negrito */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adiciona sombra ao texto */
+}
+h1 {
+    color: #ffffffb5; /* Altere para a cor desejada */
+    font-weight: bold; /* Torna o texto em negrito */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adiciona sombra ao texto */
+}
+#res {
+    color: #ffffffb5;
+    font-size: 25px;
+    font-weight: bold; /* Torna o texto em negrito */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adiciona sombra ao texto */
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    position: relative;
+    padding: 20px; /* Espaçamento interno do rodapé */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    position: absolute; /* Importante para posicionamento */
+    top: 10px; /* Ajuste a posição vertical */
+    right: 10px; /* Ajuste a posição horizontal */
+    display: flex;
+    gap: 10px; /* Espaçamento entre os ícones */
+}
+
+.social-icon {
+    font-size: 32px; /* Ajuste o tamanho do ícone */
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    width: 300px; /* Defina a largura desejada */
+    height: 50px; /* Defina a altura desejada */
+    line-height: 50px; /* Centraliza o ícone verticalmente */
+    text-align: center; /* Centraliza o ícone horizontalmente */
+    border-radius: 10%; /* Se desejar um ícone circular */
+    background-color: rgba(0, 0, 0, 0.5); /* Background para visualização */
+}
+
+.social-icon i {
+    line-height: inherit; /* Mantém o alinhamento do ícone */
+}
+
+.social-icon:hover {
+    color: #4267B2; /* Cor do ícone ao passar o mouse */
+}
+
+.social-icon .fa-youtube:hover {
+    color: #FF0000; /* Cor do ícone do YouTube ao passar o mouse */
+}
+#gifmegumin {
+    width: 300px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção original */
+    border-radius: 50%;
+}
+.botao {
+    display: block; /* Faz o botão ocupar toda a largura disponível */
+    width: 300px; /* Ajuste conforme necessário */
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #0000004a; /* Cor de fundo do botão */
+    color: rgba(237, 229, 229, 0.94); /* Cor do texto do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    margin: 0 auto; /* Centraliza o botão horizontalmente */
+    margin-top: 10px; /* Espaço acima do botão */
+}

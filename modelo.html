@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora do Dia</title>
+    <link rel="stylesheet" href="stilo/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Link para Font Awesome -->
+</head>
+<body onload="carregar()">
+    <header>
+    </header>
+    <section>
+        <div id="msg"><strong> vai aparecer a hora</strong></div>
+        <div id="res"><!-- Mensagem de BOM DIA, BOA TARDE ou BOA NOITE --></div>
+        <div id="foto-container">
+            <img id="gifmegumin" src="https://gifdb.com/images/high/megumin-moving-her-finger-qkp6guuviwcxy1u3.gif" alt="Gif Megumin">
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Jorge Luiz</p>
+        <a href="https://www.facebook.com" class="social-icon" target="_blank"><i class="fab fa-facebook-f"></i></a> <!-- Ícone do Facebook -->
+        <a href="https://www.youtube.com" class="social-icon" target="_blank"><i class="fab fa-youtube"></i></a> <!-- Ícone do YouTube -->
+        <a href="https://www.instagram.com" class="social-icon instagram" target="_blank"><i class="fab fa-instagram"></i></a> <!-- Ícone do Instagram -->
+        <input type="button" value="INFORMAÇÃO IMPORTANTE" onclick="informar('informar')" class="botao">
+    </footer>
+    <script src="script/script.js"></script>
+</body>
+</html>
